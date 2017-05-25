@@ -90,7 +90,7 @@ nav a{
 	float:left;
 	width:59%;
 	height:110%;
-	padding-top:130px;
+	padding-top:80px;
 	padding-left:30px;
 }
 #contacto article{
@@ -104,9 +104,7 @@ nav a{
 	font-weight: bold;
 	text-align: center;
 }
-#contacto form{
 
-}
 
 #contacto input{
 	width:90%;
