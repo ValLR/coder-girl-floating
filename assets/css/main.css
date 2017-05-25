@@ -1,0 +1,157 @@
+body{
+	font-family:'Roboto', sans-serif;
+	margin:0;
+}
+/*Header+Nav*/
+header{
+	height:40px;
+	padding:20px;
+}
+header h1{
+	font-size:20px;
+	font-weight: normal;
+	margin-left:100px;
+	float:left;
+}
+
+nav{
+	margin-right:100px;
+	padding-top: 20px;
+	float:right;
+}
+
+nav a{
+	text-decoration: none;
+	margin-right:30px;
+	color:#778899;
+	float:left;
+}
+/*Section1 incríbete*/
+#inscribete {
+	background-image: url("../img/home.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:500px;
+	text-align:center;
+	font-weight:normal;
+}
+
+#inscribete h2{
+	color: #FDFDFF;
+	font-weight: normal;
+	font-size:50px;
+	padding-top:154px;
+	margin:0;
+}
+#inscribete p{
+	font-size:25px;
+	color:#778899;
+	margin-bottom:50px;
+}
+/*Botones*/
+.boton{
+	background-color: #2A5AFA;
+	text-decoration:none;
+	color:white;
+	padding:9px 15px;
+	border-radius: 8px;
+	border:1px solid blue;
+}
+/*Section2-hackathon*/
+#hackathon{
+	background-color:#F1E308;
+	margin-top:50px;
+	height: 460px;
+	color:#666666;
+}
+#hackathon img{
+	width:550px;
+	padding:70px;
+	float:left;
+}
+#hackathon article{
+	padding: 85px 50px;
+}
+#hackathon h2{
+	text-align:center;
+	font-weight: normal;
+	margin-bottom:28px;
+	font-size:26px;
+}
+#boton-space{
+	margin-top:45px;
+	text-align: center;
+}
+/*section3-contacto*/
+#contacto {
+	margin:45px;
+}
+#contacto img{
+	float:left;
+	width:59%;
+	height:110%;
+	padding-top:130px;
+	padding-left:30px;
+}
+#contacto article{
+	width:30%;
+	float:right;
+	margin-right: 0;
+
+}
+#contacto h2{
+	font-size:28px;
+	font-weight: bold;
+	text-align: center;
+}
+#contacto form{
+
+}
+
+#contacto input{
+	width:90%;
+	height:30px;
+	margin-bottom:10px;
+	border:1px solid #EEEEEE;
+	border-radius: 7px;
+	float:right;
+}
+
+#contacto input, #contacto textarea::-webkit-input-placeholder{
+	padding-left:10px;
+}
+
+#contacto textarea{
+	float:right;
+	width:94%;
+	height:140px;
+	border:1px solid #EEEEEE;
+	border-radius: 7px;
+	margin-bottom:35px;
+	font-family: 'roboto', sans-serif;
+}
+
+#contacto .boton{
+	margin-left:9px;
+}
+#contacto{
+	margin-bottom:300px;
+}
+
+/*Footer*/
+footer {
+	padding-top:350px;
+	margin:0;
+	color:white;
+	font-size:14px;
+}
+footer p{
+	background-color: #3fa2ff;
+	margin-bottom:0;
+	height:10px;
+	padding:25px;
+	font-size:15px;
+}
+footer span{
+	color:orange;
+}
